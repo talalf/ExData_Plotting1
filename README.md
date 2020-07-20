@@ -2,7 +2,7 @@
 
 The four functions in the main directory of this repository generate the four plots required in this assignment.
 
-If you would like to view each plot they are in this folder and are called plot1.R, plot2.R, plot3.R and plot4.R.
+If you would like to view each plot they are in this folder and are called plot1.png, plot2.png, plot3.png and plot4.png.
 
 ### Testing the code
 
@@ -19,12 +19,12 @@ To generate plot2:
 ``` {R}
 source("plot2.R")
 ```
-To generate plot3
+To generate plot3:
 
 ``` {R}
 source("plot3.R")
 ```
-To generate plot4
+To generate plot4:
 
 ``` {R}
 source("plot4.R")
