@@ -35,7 +35,7 @@ hpc <- hpc %>% select(day, everything())
 
 # Print plot 3
 
-png(file="plot3.png")
+png(file="plot3.png", height = 480, width = 480)
 
 with(hpc, plot(type = "l", date_time, Sub_metering_1,
                ylab = "Energy sub metering",

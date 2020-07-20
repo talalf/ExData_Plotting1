@@ -35,11 +35,9 @@ hpc <- hpc %>% select(day, everything())
 
 # Print plot 2
 
+png(file="plot2.png", width = 480, height = 480)
 with(hpc, plot(date_time, Global_active_power,
                ylab = "Global Active Power (kilowatts)",
-               xlab = "", pch = 26))
+               xlab = "", type = "l"))
 
-with(hpc,lines(date_time, Global_active_power))
-
-dev.copy(png, file = "plot2.png", width = 480, height = 480)
 dev.off()

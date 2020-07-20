@@ -34,7 +34,7 @@ hpc$day <- wday(hpc$date_time, label = TRUE, abbr = FALSE) #getting day names
 hpc <- hpc %>% select(day, everything())
 
 # Making plot 4
-png(file="plot4.png")
+png(file="plot4.png", width = 480, height = 480)
 
 par(mfrow=c(2,2))
 
